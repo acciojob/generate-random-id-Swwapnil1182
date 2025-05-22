@@ -3,7 +3,7 @@ function makeid(l) {
 	const characters="abcdefghijklmnopqrstuvwxyz0123456789"
 	let res=''
 const length = Number(l);
-	for(let i=0i<1;i++){
+	for(let i=0i<length;i++){
 		const randomText=Math.floor(Math.random()*characters.length)
 		res=res+characters[randomText]
 	}
